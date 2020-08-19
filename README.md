@@ -14,7 +14,7 @@ This work is a groundwork for an enlarging method. The focus is on reconstructin
 
 The Metropolis simulation is used to create a dataset of multiple spin configurations. This is executed with the C++ code in 'ising.cpp'. C++ is chosen for efficiency reasons. The spin configurations are also decimated and enlarged by the majority rules in this code. The spin configurations are saved as a .csv file. Three observables (absolute magnetization, energy and spin-spin correlation function) are also calculated here.
 
-## Python
+## Python CNN Reconstruction
 
 The CNN reconstruction is learned with the code in 'learning.ipynb'. A CNN model is prepared and trained to convert the decimation procedure to match the original spin configuration distribution. Then it is shown, that this reconstruction does match the correct observables.
 
