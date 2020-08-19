@@ -1,4 +1,4 @@
-## Ising Decimation Reversion with CNN
+# Ising Decimation Reversion with CNN
 
 Metropolis Simulation of the 1D Ising model. Reverting a renormalization by decimation with a trained convolutional neural network (CNN). 
 
